@@ -1,0 +1,9 @@
+addi s2, x0, 100
+lw t0, 0(s2)
+sw s2, 100(t0)
+addi a0, a0, 10
+loop1:
+addi a0, a0, -5
+addi a1, a1, 5
+beq a0, a1, loop1
+ebreak
