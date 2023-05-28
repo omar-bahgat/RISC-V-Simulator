@@ -9,9 +9,10 @@ This project was created for the Computer Organization and Assembly Langugage co
 * <code>Initial Address</code>: The user should specify the program starting address (where the program’s first instruction should be loaded in the memory). <br>
 * <code>Assembly Program</code>: The user should input a program to be simulated by specifying a text file that contains the instructions. <br>
 * <code>Memory Data</code>: The user should specify any data required by the program to be initially loaded in the memory. For each data item, both its value and memory address should be specified in the follwing format: {address, value}. This information should also be provided through a text file. <br>
+* The program terminates by any of the following 3 instruction: ECALL, EBREAK, and FENCE.
 
 ### Simulator Outputs
-* The simulator outputs the instruction itself, the program counter value, the register contents, and the memory contents after each instruction execution.
+* The simulator outputs the instruction itself, the program counter value, the register contents, and the memory contents after each instruction execution until the program ends.
 
 ## Group Members
 * Omar Bahgat: https://github.com/omar-bahgat <br>
